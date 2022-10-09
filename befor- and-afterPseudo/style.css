@@ -1,0 +1,132 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body{
+padding: 100px;
+    /* display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+/* .para-container{
+    border: 1px solid black;
+    position: relative;
+} */
+
+
+.para-container{
+    /* border: 1px solid black; */
+    position: relative;
+}
+
+
+/* p::before{
+    position: absolute;
+    content: "";
+    display: block;
+    width: 20px;
+    height: 20px;
+    background:red;
+    top: 20px;
+    left: 20px;
+        border-radius: 50%;
+} */
+
+/* p::before{
+    position: absolute;
+    content: "";
+    
+    width: 20px;
+    height: 20px;
+    background:red;
+    top: 20px;
+    left: 20px;
+        border-radius: 50%;
+} */
+
+
+/* p::after{
+        position: absolute;
+    content: "";
+
+    width: 20px;
+    height: 20px;
+    background:rgb(43, 255, 0);
+    top: 50px;
+    left: 70px;
+    border-radius: 50%;
+
+} */
+
+
+p::before{
+    content: "code";
+     /* display: inline-block; */
+    /* display: block; */
+     background:red;
+     width:30px;
+     height:30px;
+     padding: 1em;
+     border-radius: 50%;
+     
+}
+
+p::after{
+    content: "practice";
+    /* display: inline-block; */
+    /* display: block; */
+     background:red;
+     width:30px;
+          padding: 1em;
+     height: 30px;
+     width:30px;
+     border-radius: 50%;
+}
+
+.demo{
+    margin: 20px;
+    
+}
+
+.demo{
+    /* content: url(https://cdn.pixabay.com/photo/2019/06/05/08/37/dog-4253238__480.jpg); */
+    display: block;
+}
+
+.quote::before{
+    content: open-quote;
+    font-size: 3em;
+    color:gray;
+}
+
+.quote::after{
+    content: close-quote;
+    font-size: 3em;
+    color: gray;
+}
+
+
+a[data-tool-tip]{
+    position: relative;
+}
+
+a[data-tool-tip]::after{
+    display: block;
+    content: attr(data-tool-tip);
+    background:yellow;
+}
+
+a[data-tool-tip]::before{
+    content: attr(data-tool-tip);
+    background:yellow;
+    display: block;
+}
+
+
+
