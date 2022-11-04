@@ -65,7 +65,7 @@ border: 2px solid red;
     }
 } */
 
-.columns{
+/* .columns{
     border: 2px solid red;
     display: flex;
     gap:2rem;
@@ -81,4 +81,38 @@ border: 2px solid red;
     background-color:pink;
     align-self:start;
     border: 2px solid goldenrod;
+} */
+
+
+.container{
+    width: 500px;
+    border: 1px solid red;
+    display: flex;
+    justify-content: center;
+    height:40vh;
+    align-items:center;
+
+    
+}
+
+.item{
+    border: 1px solid blue;
+    /* flex-grow: 1;
+    flex-shrink:;
+    flex-basis:; */
+    flex:0 1 100px;
+}
+
+.one{
+    background: red;
+    align-self: center;
+    flex-basis: 200px;
+    order: 2;
+
+}
+.two{
+    background: orange;
+}
+.three{
+    background: violet;
 }
