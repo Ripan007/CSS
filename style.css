@@ -16,8 +16,8 @@
   width: 100%;
   color: #fff;
   text-align: center;
-
-  font-size: 2rem;
+  text-transform: capitalize;
+  font-size: 4rem;
 }
 
 .middle-band {
