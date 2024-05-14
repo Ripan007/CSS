@@ -24,5 +24,10 @@ img {
   float: left;
 }
 .dog-image {
-  float: right;
+  float: left;
+}
+
+footer {
+  background-color: orange;
+  display: inline-block;
 }
