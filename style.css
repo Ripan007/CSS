@@ -12,8 +12,8 @@
 
 .content {
   border: 2px solid gold;
-  margin-top: 40px;
-  height: 200px;
+  margin: 0 auto;
+  height: 250px;
   width: 460px;
   background-color: red;
 }
