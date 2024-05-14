@@ -24,10 +24,10 @@ img {
   float: left;
 }
 .dog-image {
-  float: left;
+  float: right;
 }
 
 footer {
   background-color: orange;
-  clear: both;
+  /* clear: both; */
 }
