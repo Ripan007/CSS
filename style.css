@@ -2,3 +2,10 @@ h1,
 h2 {
   color: violet;
 }
+
+.box > p {
+  color: firebrick;
+}
+.list li {
+  color: blue;
+}
