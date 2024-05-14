@@ -1,17 +1,21 @@
+body {
+  background-color: lightseagreen;
+}
+
 @media (max-width: 480px) {
   body {
-    background-color: red;
+    background-color: rgb(252, 255, 240);
   }
 }
 
-@media (min-width: 481px) {
+@media (min-width: 481px) and (max-width: 1200px) {
   body {
-    background-color: blue;
+    background-color: burlywood;
   }
 }
 
-@media (min-width: 481px) {
+@media (min-width: 1201px) and (max-width: 1600px) {
   body {
-    background-color: blue;
+    background-color: cadetblue;
   }
 }
