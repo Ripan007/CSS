@@ -36,3 +36,9 @@
   top: 30%;
   left: 36%;
 }
+
+.center-text {
+  font-size: 5rem;
+
+  text-align: center;
+}
