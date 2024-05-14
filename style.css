@@ -34,4 +34,9 @@ body {
   }
 }
 
+@media (min-width: 1601px) {
+  body {
+    background-color: bisque;
+  }
+}
 /* first right hand side then left hand side */
