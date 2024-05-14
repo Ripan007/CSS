@@ -11,3 +11,33 @@ body {
 
 
 **/
+
+/*  mobile device */
+@media (max-width: 480px) {
+  body {
+    background-color: red;
+  }
+}
+
+/* ipads and tablets */
+
+@media (min-width: 481px) and (max-width: 1200px) {
+  body {
+    background-color: pink;
+  }
+}
+
+/* laptops */
+@media (min-width: 1200px) and (max-width: 1201px) {
+  body {
+    background-color: yellow;
+  }
+}
+
+/* desktops */
+
+@media (max-width: 1600px) {
+  body {
+    background-color: orange;
+  }
+}
