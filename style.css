@@ -18,3 +18,11 @@
   border-style: solid;
   margin-left: 260px;
 }
+
+.box-3 {
+  width: 100px;
+  height: 100px;
+  padding: 20px;
+  background-color: rgb(135, 144, 222);
+  border: 10px solid black;
+}
