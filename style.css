@@ -8,10 +8,12 @@
 body {
   margin: 10px;
   list-style: none;
+  text-decoration: none;
 }
 .container {
   background-color: yellow;
   padding: 10px;
   display: flex;
   gap: 20px;
+  justify-content: space-around;
 }
