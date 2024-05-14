@@ -1,5 +1,12 @@
 .container {
   height: 400px;
-  width: 300px;
+  width: 500px;
   background-color: black;
+}
+
+.content {
+  border: 2px solid gold;
+  margin: 10px;
+  height: 200px;
+  width: 450px;
 }
