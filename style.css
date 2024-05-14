@@ -16,9 +16,3 @@
   border-radius: 50%;
   background-color: white;
 }
-
-.bottom-band {
-  position: absolute;
-  bottom: 0;
-  display: block;
-}
