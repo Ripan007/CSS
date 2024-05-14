@@ -6,6 +6,6 @@ h2 {
 .box > p {
   color: firebrick;
 }
-.list li {
+.list .done {
   color: blue;
 }
