@@ -17,14 +17,18 @@
 }
 
 .middle-band {
+  position: relative;
   height: 400px;
   width: 100%;
   background-color: blue;
 }
 
 .white-circle {
+  position: absolute;
   height: 200px;
   width: 200px;
   border-radius: 50%;
   background-color: white;
+  top: 25%;
+  left: 25%;
 }
