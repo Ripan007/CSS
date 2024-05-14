@@ -28,16 +28,8 @@ body {
 }
 
 /* laptops */
-@media (min-width: 1200px) and (max-width: 1201px) {
+@media (min-width: 1200px) and (max-width: 1600px) {
   body {
     background-color: yellow;
-  }
-}
-
-/* desktops */
-
-@media (max-width: 1600px) {
-  body {
-    background-color: orange;
   }
 }
