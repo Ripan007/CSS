@@ -1,42 +1,13 @@
-body {
-  background-color: lightseagreen;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  padding: 20px;
 }
 
-/**
-* * change the background color for each according to  the device
-* * mobile device => 319px - 480px
-* * ipads and tablets => 481px - 1200px
-* * laptops => 1201px - 1600px
-* * desktops => 1601px and more
-
-
-**/
-
-/*  mobile device */
-@media (max-width: 480px) {
-  body {
-    background-color: red;
-  }
+.logo {
+  width: 200px;
+  height: 100px;
+  object-fit: contain;
+  border: 1px solid;
 }
-
-/* ipads and tablets */
-
-@media (min-width: 481px) and (max-width: 1200px) {
-  body {
-    background-color: pink;
-  }
-}
-
-/* laptops */
-@media (min-width: 1200px) and (max-width: 1600px) {
-  body {
-    background-color: yellow;
-  }
-}
-
-@media (min-width: 1601px) {
-  body {
-    background-color: bisque;
-  }
-}
-/* first right hand side then left hand side */
