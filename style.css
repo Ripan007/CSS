@@ -1,19 +1,5 @@
-h1,
-h2 {
-  color: violet;
-}
-
-.box > p {
-  color: firebrick;
-}
-.list li {
-  color: blue;
-}
-
-li.done {
-  color: green;
-}
-
-ul p.done {
-  font-size: 0.2rem;
+.box {
+  background-color: blue;
+  margin-left: 200px;
+  margin-top: 200px;
 }
