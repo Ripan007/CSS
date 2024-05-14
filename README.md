@@ -1,1 +1,5 @@
 # CSS
+
+# focus
+
+# avoid distractions
