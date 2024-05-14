@@ -2,3 +2,8 @@
   width: 900px;
   height: 600px;
 }
+
+.blue-background {
+  background-color: blue;
+  height: 300px;
+}
