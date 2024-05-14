@@ -19,3 +19,10 @@ img {
   width: 200px;
   height: 200px;
 }
+
+.cat-image {
+  float: left;
+}
+.dog-image {
+  float: right;
+}
