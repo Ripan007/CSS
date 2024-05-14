@@ -1,9 +1,12 @@
 .flag {
   width: 900px;
   height: 600px;
+  background-color: red;
+  position: relative;
 }
 
 .blue-background {
+  position: absolute;
   background-color: blue;
   height: 300px;
 }
