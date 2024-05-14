@@ -5,6 +5,10 @@
   font-family: sans-serif;
 }
 
+.main {
+  display: inline-block;
+}
+
 .logo {
   width: 200px;
   height: 100px;
@@ -27,4 +31,7 @@ img {
 
 .right {
   float: left;
+}
+footer {
+  clear: both;
 }
