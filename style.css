@@ -10,5 +10,12 @@
   height: 200px;
   width: 460px;
   margin: 0 auto;
-  margin-top: 50px;
+}
+
+h1 {
+  color: gold;
+}
+
+h2 {
+  color: #fff;
 }
