@@ -9,7 +9,12 @@
   background-color: blue;
   height: 300px;
 }
-
+.white-circle {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  background-color: #fff;
+}
 .flag > p {
   font-size: 3rem;
   text-align: center;
