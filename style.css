@@ -1,44 +1,7 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-.flag {
-  width: 900px;
-  height: 600px;
-  background-color: red;
-  position: relative;
-}
-
-.top-band {
+div {
   height: 100px;
-  width: 100%;
-  color: #fff;
-  text-align: center;
-  text-transform: capitalize;
-  font-size: 4rem;
-}
-
-.middle-band {
-  position: relative;
-  height: 400px;
-  width: 100%;
-  background-color: blue;
-}
-
-.white-circle {
-  position: absolute;
-  height: 200px;
-  width: 200px;
-  border-radius: 50%;
-  background-color: white;
-  top: 30%;
-  left: 36%;
-}
-
-.center-text {
-  font-size: 5rem;
-
-  text-align: center;
+  width: 100px;
+  background-color: red;
+  border: 2px solid black;
+  display: block;
 }
