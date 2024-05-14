@@ -3,3 +3,15 @@
     background-color: red;
   }
 }
+
+@media (min-width: 481px) {
+  body {
+    background-color: blue;
+  }
+}
+
+@media (min-width: 481px) {
+  body {
+    background-color: blue;
+  }
+}
