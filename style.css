@@ -3,3 +3,12 @@
   height: 500px;
   width: 500px;
 }
+
+.image-container {
+  width: 400px;
+  height: 400px;
+}
+
+.image-container img {
+  object-fit: cover;
+}
