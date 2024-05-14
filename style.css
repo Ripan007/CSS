@@ -10,6 +10,12 @@
   background-color: red;
   position: relative;
 }
+
+.top-band {
+  height: 200px;
+  width: 100%;
+}
+
 .white-circle {
   height: 100px;
   width: 100px;
