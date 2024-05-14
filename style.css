@@ -8,10 +8,17 @@
   width: 900px;
   height: 600px;
   background-color: red;
+  position: relative;
 }
 .white-circle {
   height: 100px;
   width: 100px;
   border-radius: 50%;
   background-color: white;
+}
+
+.bottom-band {
+  position: absolute;
+  bottom: 0;
+  display: block;
 }
