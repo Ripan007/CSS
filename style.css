@@ -12,7 +12,7 @@
 
 .content {
   border: 2px solid gold;
-
+  margin-top: 40px;
   height: 200px;
   width: 460px;
   background-color: red;
