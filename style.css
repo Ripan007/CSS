@@ -1,0 +1,21 @@
+div {
+  display: inline-block;
+  width: 40%;
+}
+
+.cat {
+  background-color: orange;
+}
+
+.dog {
+  background-color: aquamarine;
+}
+
+footer {
+  text-align: center;
+}
+
+img {
+  width: 200px;
+  height: 200px;
+}
