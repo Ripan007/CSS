@@ -6,7 +6,12 @@
 }
 
 .blue-background {
-  position: absolute;
   background-color: blue;
   height: 300px;
+}
+
+.flag > p {
+  font-size: 3rem;
+  text-align: center;
+  color: white;
 }
