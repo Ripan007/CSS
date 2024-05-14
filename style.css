@@ -3,3 +3,9 @@
   height: 600px;
   background-color: red;
 }
+.white-circle {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  background-color: white;
+}
