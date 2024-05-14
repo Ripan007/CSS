@@ -29,5 +29,5 @@ img {
 
 footer {
   background-color: orange;
-  display: inline-block;
+  clear: both;
 }
