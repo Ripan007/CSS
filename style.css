@@ -3,10 +3,17 @@
   grid-template-columns: 1fr 1fr 1.5fr;
   grid-template-rows: 1fr 1fr;
   gap: 20px;
+  height: 500px;
 }
 .item {
   background-color: violet;
   font-size: 5rem;
   color: white;
   font-family: sans-serif;
+}
+
+.cowboy {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
