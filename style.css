@@ -46,8 +46,9 @@ body {
   border-radius: 5px;
 }
 
-@media (max-width: 1250px) {
+@media (max-width: 480px) {
   .pricing-container {
     flex-direction: column;
+    height: 100%;
   }
 }
