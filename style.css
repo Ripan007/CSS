@@ -1,0 +1,11 @@
+body {
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.pricing-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  gap: 20px;
+}
